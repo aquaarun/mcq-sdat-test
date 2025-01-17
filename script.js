@@ -1,7 +1,12 @@
-const questions = [
-    { question: "What is 2 + 2?", options: ["1", "2", "3", "4"], correct: "D" },
-    { question: "What is the capital of France?", options: ["Paris", "London", "Berlin", "Rome"], correct: "A" }
-];
+let questions = [];
+
+// Fetch questions from JSON file
+fetch('questions.json')
+    .then(response => response.json())
+    .then(data => {
+        questions = data;
+        loadQuestion();
+    });
 
 let currentQuestionIndex = 0;
 let timeLeft = 60;
@@ -21,25 +26,7 @@ function loadQuestion() {
     timeLeft = 60;
 }
 
-function startTimer() {
-    const timer = setInterval(() => {
-        if (timeLeft <= 0) {
-            clearInterval(timer);
-            alert("Time's up for this question!");
-            nextQuestion();
-        } else {
-            document.getElementById("timer").textContent = `${timeLeft} seconds left`;
-            timeLeft--;
-        }
-    }, 1000);
-}
-
-function nextQuestion() {
+document.getElementById("next-btn").addEventListener("click", () => {
     currentQuestionIndex++;
     loadQuestion();
-}
-
-document.getElementById("next-btn").addEventListener("click", nextQuestion);
-
-loadQuestion();
-startTimer();
+});
