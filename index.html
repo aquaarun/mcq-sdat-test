@@ -1,4 +1,26 @@
-mcq-test/
-  ├── index.html
-  ├── style.css
-  ├── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>MCQ Test</h1>
+        <div id="question-container">
+            <p id="question">Loading question...</p>
+            <form id="options">
+                <input type="radio" name="option" id="optionA" value="A"> <label for="optionA">Option A</label><br>
+                <input type="radio" name="option" id="optionB" value="B"> <label for="optionB">Option B</label><br>
+                <input type="radio" name="option" id="optionC" value="C"> <label for="optionC">Option C</label><br>
+                <input type="radio" name="option" id="optionD" value="D"> <label for="optionD">Option D</label><br>
+            </form>
+        </div>
+        <p id="timer">60 seconds left</p>
+        <button id="next-btn">Next Question</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
