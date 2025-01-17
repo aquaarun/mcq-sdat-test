@@ -1,0 +1,133 @@
+{
+    "institution": "G-TEC EDUCATION",
+    "certifications": [
+        "ISO 9001: 2015 CERTIFIED"
+    ],
+    "prerequisites": {
+        "IQ and Logical Reasoning": [
+            "Logical puzzles",
+            "Data interpretation",
+            "Problem-solving techniques",
+            "Basic mathematical reasoning"
+        ],
+        "Software Development": [
+            "Programming languages: C, C++, Java, or Python (syntax, basic constructs, OOPs concepts)",
+            "Data structures and algorithms",
+            "Software development life cycle (SDLC)",
+            "Database management basics (SQL queries, normalization, ER diagrams)"
+        ],
+        "DevSecOps Fundamentals": [
+            "Version control systems (e.g., Git)",
+            "Continuous Integration/Continuous Deployment (CI/CD) basics",
+            "Security principles: authentication, encryption, vulnerability management",
+            "Awareness of common vulnerabilities (e.g., OWASP Top 10)"
+        ]
+    },
+    "test_norms": {
+        "duration": "90 minutes",
+        "restrictions": [
+            "No Mobile Phones or Smart Devices / Wearables Allowed",
+            "One A4 Blank Sheet will be provided for Rough Work",
+            "Only Blue Pen To be Used"
+        ],
+        "result_communication": [
+            "WhatsApp",
+            "Email"
+        ]
+    },
+    "student_details_required": [
+        "Full Name",
+        "Age",
+        "College/University",
+        "Stream",
+        "Year",
+        "Mobile Number",
+        "Email ID",
+        "Career Goal"
+    ],
+    "sections": [
+        {
+            "name": "IQ and Logical Reasoning",
+            "questions": [
+                {
+                    "question": "If A is the brother of B, B is the sister of C, and C is the father of D, how is D related to A?",
+                    "options": [
+                        "Brother",
+                        "Nephew",
+                        "Sister",
+                        "Cannot be determined"
+                    ]
+                },
+                {
+                    "question": "A train 180 meters long is running at a speed of 72 km/h. How much time will it take to cross a pole?",
+                    "options": [
+                        "7.5 seconds",
+                        "9 seconds",
+                        "10 seconds",
+                        "8 seconds"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Software Development Fundamentals",
+            "questions": [
+                {
+                    "question": "Which of the following is NOT a valid Python data type?",
+                    "options": [
+                        "List",
+                        "Tuple",
+                        "Dictionary",
+                        "Record"
+                    ]
+                },
+                {
+                    "question": "What is the output of the following C++ code? int x = 5; cout << x++;",
+                    "options": [
+                        "5",
+                        "6",
+                        "Error",
+                        "Undefined"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DevSecOps Fundamentals",
+            "questions": [
+                {
+                    "question": "What is the primary purpose of using a version control system like Git?",
+                    "options": [
+                        "Tracking and managing changes to code",
+                        "Compiling the code",
+                        "Testing the application",
+                        "Deploying to production"
+                    ]
+                },
+                {
+                    "question": "Which of the following commands creates a new branch in Git?",
+                    "options": [
+                        "git branch new_branch",
+                        "git checkout -b new_branch",
+                        "Both a and b",
+                        "git create new_branch"
+                    ]
+                }
+            ]
+        }
+    ],
+    "contact_info": {
+        "address": "4th FLOOR, M.R. TOWER, LINE TANK ROAD RANCHI, JHARKHAND- 834001",
+        "phone_numbers": [
+            "9031046699",
+            "9031046700"
+        ],
+        "email": "pro.jh@gteceducation.com"
+    },
+    "corporate_offices": [
+        "Mumbai",
+        "Singapore",
+        "Dubai",
+        "Calicut"
+    ]
+}
